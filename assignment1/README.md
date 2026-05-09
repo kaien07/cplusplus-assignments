@@ -2,13 +2,13 @@
   <img src="docs/marriage_pact.png" alt="Marriage Pact Logo" />
 </p>
 
-# Assignment 2: Marriage Pact
+# Assignment 1: Marriage Pact
 
 Due Friday, April 24th at 11:59PM
 
 ## Overview
 
-Happy assignment 2! This is meant to be a very short and sweet bit of practice to get you started working with the STL's containers and pointers.
+Happy assignment 1! This is meant to be a very short and sweet bit of practice to get you started working with the STL's containers and pointers.
 
 These are the files you need to care about:
 
@@ -19,7 +19,7 @@ To download the starter code for this assignment, please see the instructions fo
 
 ## Running your code
 
-To run your code, first you'll need to compile it. Open up a terminal (if you are using VSCode, hit <kbd>Ctrl+\`</kbd> or go to **Terminal > New Terminal** at the top). Then make sure that you are in the `assignment2/` directory and run:
+To run your code, first you'll need to compile it. Open up a terminal (if you are using VSCode, hit <kbd>Ctrl+\`</kbd> or go to **Terminal > New Terminal** at the top). Then make sure that you are in the `assignment1/` directory and run:
 
 ```sh
 g++ -std=c++20 main.cpp -o main
@@ -115,7 +115,7 @@ Afterwards, answer the following question in `short_answer.txt`:
 ## 🚀 Submission Instructions
 
 To submit the assignment:
-1. Please complete the feedback form [at this link](https://forms.gle/Zv27LwmtCPz88Kg46). 
+1. Please complete the feedback form [at this link](https://forms.gle/Zv27LwmtCPz88Kg46).
 2. Submit your assignment on [Paperless](https://paperless.stanford.edu)!
 
 Your deliverable should be:
