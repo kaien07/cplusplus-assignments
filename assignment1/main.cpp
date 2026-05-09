@@ -13,8 +13,6 @@
 #include <string>
 #include <unordered_set>
 
-std::string kYourName = "STUDENT TODO"; // Don't forget to change this!
-
 /**
  * Takes in a file name and returns a vector containing all of the applicant names as a vector.
  *
