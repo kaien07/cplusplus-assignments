@@ -38,7 +38,7 @@ std::vector<std::string> get_applicants(std::string filename) {
  * @param students  The set of student names.
  * @return          A vector containing pointers to each matching name.
  */
-std::vector<const std::string> find_matches(std::string name, std::vector<std::string>& students) {
+std::vector<std::string> find_matches(std::string name, std::vector<std::string>& students) {
   // STUDENT TODO: Implement this function.
 }
 
@@ -52,7 +52,7 @@ std::vector<const std::string> find_matches(std::string name, std::vector<std::s
  * @return        Your magical one true love.
  *                Will return "NO MATCHES FOUND." if `matches` is empty.
  */
-std::string get_match(std::vector<const std::string>& matches) {
+std::string get_match(std::vector<std::string>& matches) {
   // STUDENT TODO: Implement this function.
 }
 

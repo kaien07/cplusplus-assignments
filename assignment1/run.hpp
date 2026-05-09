@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     std::vector<std::string> applicants = get_applicants("students.txt");
-    std::vector<const std::string> matches = find_matches(student_name, applicants);
+    std::vector<std::string> matches = find_matches(student_name, applicants);
     std::string match = get_match(matches);
     std::cout << "Your match is: " << match << std::endl;
     return 0;
