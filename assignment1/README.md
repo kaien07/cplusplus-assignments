@@ -106,3 +106,5 @@ Simply commit them into the GitHub repository. That's it!
 Your deliverable should be:
 
 - `main.cpp`
+
+*Adapted from Stanford CS106L*
