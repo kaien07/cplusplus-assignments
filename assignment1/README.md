@@ -117,5 +117,3 @@ Simply commit them into the GitHub repository. That's it!
 Your deliverable should be:
 
 - `main.cpp`
-
-You may resubmit as many times as you'd like before the deadline.
