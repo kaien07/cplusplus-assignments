@@ -112,9 +112,7 @@ Afterwards, answer the following question in `short_answer.txt`:
 
 ## 🚀 Submission Instructions
 
-To submit the assignment:
-1. Please complete the feedback form [at this link](https://forms.gle/Zv27LwmtCPz88Kg46).
-2. Submit your assignment on [Paperless](https://paperless.stanford.edu)!
+Simply commit them into the GitHub repository. That's it!
 
 Your deliverable should be:
 
