@@ -57,5 +57,6 @@
     "variant": "cpp",
     "vector": "cpp",
     "algorithm": "cpp"
-  }
+  },
+  "gitdoc.enabled": false
 }
