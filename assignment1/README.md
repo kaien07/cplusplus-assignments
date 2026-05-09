@@ -65,13 +65,6 @@ We’ve included a `.txt` file of all of the (fictional) students who signed up 
 >
 > From the `.txt` file, parse all of the names into a set. Each line contained in the file named `filename` is a single applicant's name. In your implementation, you are free to choose between an ordered (`std::set`) and unordered set (`std::unordered_set`) as you wish! If you do choose to use an unordered set, please change the relevant function definitions!
 
-Additionally, please answer the following short answer question in `short_answer.txt`:
-
-> [!IMPORTANT]
->
-> ### `short_answer.txt`
->
-> **Q1:** It is your choice to use either an ordered or unordered set. In a few sentences, what are some of the tradeoffs between the two? Additionally, please give an example (that has not been shown in lecture) of a valid hash function that could be used to hash student names for an unordered set.
 
 > [!NOTE]
 > All names appearing in this assignment are fictitious. Any resemblance to real persons, living or dead, is purely coincidental.
@@ -101,14 +94,6 @@ From here please implement the function `get_match` to find your “one true mat
 > Gets your “one true match” from the queue of all possible matches. This can be determined as you see fit; choose some method of acquiring one student from the queue, ideally something with a bit more thought than a single `pop()`, but it doesn’t have to be particularly complicated! Consider random values or other methods of selection.
 >
 > If your initials have no matches in the dataset, print `“NO MATCHES FOUND.”` Better luck next year 😢
-
-Afterwards, answer the following question in `short_answer.txt`:
-
-> [!IMPORTANT]
->
-> ### `short_answer.txt`
->
-> **Q2:** Note that we are saving pointers to names in the queue, not names themselves. Why might this be desired in this problem? What happens if the original set where the names are stored goes out of scope and the pointers are referenced?
 
 ## 🚀 Submission Instructions
 
