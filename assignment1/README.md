@@ -63,7 +63,7 @@ We’ve included a `.txt` file of all of the (fictional) students who signed up 
 >
 > ### `get_applicants`
 >
-> From the `.txt` file, parse all of the names into a set. Each line contained in the file named `filename` is a single applicant's name. In your implementation, you are free to choose between an ordered (`std::set`) and unordered set (`std::unordered_set`) as you wish! If you do choose to use an unordered set, please change the relevant function definitions!
+> From the `.txt` file, parse all of the names into a set. Each line contained in the file named `filename` is a single applicant's name. It should return a `vector` of applicant names.
 
 
 > [!NOTE]
@@ -79,10 +79,10 @@ For this section, you will write the functions `find_matches` and `get_match`:
 >
 > ### `find_matches`
 >
-> From the set `students` (generated in the previous part), take all names that share initials with the parameter `name` and place pointers to them in a new `std::queue`.
+> From the set `students` (generated in the previous part), take all names that share initials with the parameter `name` and place pointers to them in a new `std::vector`.
 >
 > - If you’re having trouble figuring out how to iterate through a set, it could be helpful to look back over [Thursday’s lecture on iterators and pointers](https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EbOKUV784rBHrO3JIhUSAUgBvuIGn5rSU8h3xbq-Q1JFfQ?e=BlZwa7).
-> - You will need to be familiar with the operations of a `std::queue` for this part. Take a look at cppreference's documentation [here](https://en.cppreference.com/w/cpp/container/queue).
+> - You will need to be familiar with the operations of a `std::vector` for this part. Take a look at cppreference's documentation [here](https://en.cppreference.com/w/cpp/container/vector).
 > - Hint: It might help to define a helper function that computes the initials of some student's name. Then you can use that helper function to compare the initials of `name` with the initials of each name in `students`.
 
 From here please implement the function `get_match` to find your “one true match.”:
@@ -91,7 +91,7 @@ From here please implement the function `get_match` to find your “one true mat
 >
 > ### `get_match`
 >
-> Gets your “one true match” from the queue of all possible matches. This can be determined as you see fit; choose some method of acquiring one student from the queue, ideally something with a bit more thought than a single `pop()`, but it doesn’t have to be particularly complicated! Consider random values or other methods of selection.
+> Gets your “one true match” from the queue of all possible matches. This can be determined as you see fit; choose some method of acquiring one student from the queue, ideally something with a bit more thought than a single `pop_back()`, but it doesn’t have to be particularly complicated! Consider random values or other methods of selection.
 >
 > If your initials have no matches in the dataset, print `“NO MATCHES FOUND.”` Better luck next year 😢
 
