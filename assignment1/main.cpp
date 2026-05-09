@@ -1,8 +1,8 @@
 /*
- * CS106L Assignment 2: Marriage Pact
+ * Assignment 1: Marriage Pact
  * Created by Haven Whitney with modifications by Fabio Ibanez & Jacob Roberts-Baca.
  *
- * Welcome to Assignment 2 of CS106L! Please complete each STUDENT TODO
+ * Welcome to Assignment 1! Please complete each STUDENT TODO
  * in this file. You do not need to modify any other files.
  *
  */
