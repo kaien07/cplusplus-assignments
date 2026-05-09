@@ -95,6 +95,10 @@ From here please implement the function `get_match` to find your “one true mat
 >
 > If your initials have no matches in the dataset, print `“NO MATCHES FOUND.”` Better luck next year 😢
 
+## Admin instructions
+
+To test this program, run it like this (provided the binary name is matchmaker): `./matchmaker "<name to test>"`
+
 ## 🚀 Submission Instructions
 
 Simply commit them into the GitHub repository. That's it!
