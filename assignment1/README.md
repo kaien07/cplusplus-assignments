@@ -4,8 +4,6 @@
 
 # Assignment 1: Marriage Pact
 
-Due Friday, April 24th at 11:59PM
-
 ## Overview
 
 Happy assignment 1! This is meant to be a very short and sweet bit of practice to get you started working with the STL's containers and pointers.
