@@ -12,6 +12,7 @@
 #include <vector>
 #include <string>
 #include <unordered_set>
+#include <cstdlib>
 
 /**
  * Takes in a file name and returns a vector containing all of the applicant names as a vector.
@@ -25,7 +26,15 @@
  * to also change the corresponding functions in `utils.h`.
  */
 std::vector<std::string> get_applicants(std::string filename) {
-  // STUDENT TODO: Implement this function.
+  std::fstream file_stream;
+  file_stream.open(filename);
+  std::vector<std::string> applicant_names;
+  std::string first_name, last_name;
+  while (file_stream >> first_name >> last_name) {
+    applicant_names.push_back(first_name + ' ' + last_name);
+  }
+
+  return applicant_names;
 }
 
 /**
@@ -37,7 +46,16 @@ std::vector<std::string> get_applicants(std::string filename) {
  * @return          A vector containing pointers to each matching name.
  */
 std::vector<std::string> find_matches(std::string name, std::vector<std::string>& students) {
-  // STUDENT TODO: Implement this function.
+  std::vector<std::string> matches;
+  char first_initial = name[0], second_initial = name[name.find(' ') + 1];
+  for (auto student_name: students) {
+    char first = student_name[0], second = student_name[student_name.find(' ') + 1];
+    if (first == first_initial && second == second_initial) {
+      matches.push_back(student_name);
+    }
+  }
+
+  return matches;
 }
 
 /**
@@ -51,7 +69,11 @@ std::vector<std::string> find_matches(std::string name, std::vector<std::string>
  *                Will return "NO MATCHES FOUND." if `matches` is empty.
  */
 std::string get_match(std::vector<std::string>& matches) {
-  // STUDENT TODO: Implement this function.
+  if (matches.size() == 0) {
+    return "NO MATCHES FOUND.";
+  }
+  srand(time(0));
+  return matches[rand() % matches.size()];
 }
 
 /* #### Please don't remove this line! #### */
